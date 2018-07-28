@@ -74,4 +74,7 @@ $$
 - Lattice Plotting System
   - drawing = use once function
   - suitable for interaction between variables
-  - 
+- ggplot2 Plotting System
+  - The grammar of graphics
+  - = base +lattice
+
