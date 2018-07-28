@@ -57,3 +57,8 @@ $$
   - frequency table, bar plot
 - relationship of **two categorical variables**
   - contingency table, relative frequencies
+  - segmentation, relative frequency segmentation plot
+  - mosaic plot
+- a categorical variable and a numerical variable relationship
+  - side-by-side box plot
+  - 
