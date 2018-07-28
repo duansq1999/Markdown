@@ -122,3 +122,41 @@ legend("topright", pch = 1,col = c("red","blue","green","black"),legend = c(5,6,
 
 ![1532760210544](/tmp/1532760210544.png)
 
+## Lattice Plotting System
+
+- lattice package
+
+  - xyplot/bwplot/histogram/stripplot/dotplot/splom/levelplot/contourplot
+
+    ```R
+    xyplot(y~x|f*g,data)
+    ```
+
+  - panel function
+
+- grid package
+
+```R
+xyplot(y~x|f, panel = function(x,y){
+  panel.xyplot(x,y)
+  panel.abline(v = mean(x),h = mean(y), lty = 2)
+  panel.lmline(x,y,col = "red")
+})
+```
+
+![1532763296553](/tmp/1532763296553.png)
+
+## ggplot2 Plotting System
+
+- Layer
+
+  | Data       | data frame                                                   |
+  | :----------: | :-----------------------------------------------------------: |
+  | Aesthetics | x-axis/y-axis/color/fill/size/labels/alpha/shape/linear width/linear type |
+  | Geometries | point/line/histogram/bar/boxplot |
+  | Facets | columns/rows |
+  | Statistics | binning/smoothing/descriptive/inferential |
+  | Coordinates | cartesian/fixed/polar/limits |
+  | Themes | non-data ink |
+
+- 
