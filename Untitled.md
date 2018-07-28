@@ -1,5 +1,7 @@
 [TOC]
 
+# Characterization of data
+
 ## Data foundation
 
 ```mermaid
@@ -33,7 +35,7 @@ $$
 $$
   -	standard variance
 $$
-  \text{sd}=\sqrt{\text{vanriance}}
+\text{sd}=\sqrt{\text{vanriance}}
 $$
   -	interquartile range
 
@@ -61,4 +63,15 @@ $$
   - mosaic plot
 - a categorical variable and a numerical variable relationship
   - side-by-side box plot
+
+# R's drawing system
+
+## R's three major drawing systems
+
+- Base Plotting System
+  - figure + modification/addition = perform a series of functions
+  - suitable for drawing 2D images
+- Lattice Plotting System
+  - drawing = use once function
+  - suitable for interaction between variables
   - 
