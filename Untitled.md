@@ -159,4 +159,7 @@ xyplot(y~x|f, panel = function(x,y){
   | Coordinates | cartesian/fixed/polar/limits |
   | Themes | non-data ink |
 
-- 
+- drawing function
+
+  - qplot()
+  - ggplot()
