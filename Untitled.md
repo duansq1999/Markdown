@@ -106,3 +106,19 @@ $$
 
   `bg/mar/las/mfrow/mfcol`
 
+- Example
+
+```R
+with(airquality,plot(Wind,Temp,type = "n"))
+title("The relationship between temp and wind")
+with(subset(airquality,Month==5),points(Wind,Temp,col="red"))
+with(subset(airquality,Month==6),points(Wind,Temp,col="blue"))
+with(subset(airquality,Month==7),points(Wind,Temp,col="green"))
+with(subset(airquality,Month==8),points(Wind,Temp,col="black"))
+fit <- lm(Temp~Wind, airquality)
+abline(fit, lwd = 2,col = "yellow")
+legend("topright", pch = 1,col = c("red","blue","green","black"),legend = c(5,6,7,8))
+```
+
+![1532760210544](/tmp/1532760210544.png)
+
