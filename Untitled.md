@@ -37,17 +37,23 @@ $$
 $$
   -	interquartile range
 
--	robust statistics
+		robust statistics
 
   - yes: median, interquartile range(smallly affected by extreme value)
   - no: mean, sd, range(affected by extreme value)
 
--	visualization of a value
+		visualization of **a value**
 
   - histogram, dot plot
   - box plot(mode, interquartile range, extreme value)
 
--	relationship of two values
+		relationship of **two values**
 
   - scatter plot: direction, shape, strength, extreme value
-  - 
+
+## Characterization and visualization of qualitative
+
+- Visualization of **a categorical variable**
+  - frequency table, bar plot
+- relationship of **two categorical variables**
+  - contingency table, relative frequencies
