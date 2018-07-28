@@ -37,32 +37,42 @@ $$
 $$
 \text{sd}=\sqrt{\text{vanriance}}
 $$
-  -	interquartile range
+  - interquartile range
 
-		robust statistics
+      robust statistics
 
   - yes: median, interquartile range(smallly affected by extreme value)
+
   - no: mean, sd, range(affected by extreme value)
 
-		visualization of **a value**
+     visualization of **a value**
 
   - histogram, dot plot
+
   - box plot(mode, interquartile range, extreme value)
 
-		relationship of **two values**
+     ![1532759207787](/tmp/1532759207787.png)
 
-  - scatter plot: direction, shape, strength, extreme value
+  - relationship of **two values**
+
+       -	scatter plot: direction, shape, strength, extreme value
 
 ## Characterization and visualization of qualitative
 
 - Visualization of **a categorical variable**
   - frequency table, bar plot
+
 - relationship of **two categorical variables**
+
   - contingency table, relative frequencies
   - segmentation, relative frequency segmentation plot
   - mosaic plot
+
 - a categorical variable and a numerical variable relationship
+
   - side-by-side box plot
+
+    ![1532759393345](/tmp/1532759393345.png)
 
 # R's drawing system
 
@@ -77,4 +87,22 @@ $$
 - ggplot2 Plotting System
   - The grammar of graphics
   - = base +lattice
+
+## Base Plotting System
+
+- Graphics package
+
+  - plot/hist/boxplot/points/lines/text/tile/axis
+
+- plot()
+
+  ```R
+  plot(x,y,...)
+  ```
+
+  import parameters: `xlab/ylab/lwd/lty/pch/col`
+
+- par()
+
+  `bg/mar/las/mfrow/mfcol`
 
