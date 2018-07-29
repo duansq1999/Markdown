@@ -109,7 +109,30 @@ Matrices can be created by column-binding or row-binding with `cbind()`  and `rb
 
 ## Data Types - Factors
 
+### Factors
+
 Factors are used to represent **categorical data**. Factors can be unordered(e.g. male or female) or ordered(e.g. middle school, high school). One can think of a factor as an integer vector where each a **label**.
 
 - Factors are treated specially by modeling functions like `lm()` and `glm()`
 - Using factors with labels is better than using integers because factors are self-describing
+- The order of the levels can be set using the `levels` argument to `factor()`
+
+```R
+> x <- factor(c("yes", "no", "yes", "yes", "no"))
+> x
+[1] yes no yes yes no
+Levels: no yes
+> table(x)
+x
+no yes 
+ 2   3
+> unclass(x) #remove a vector class
+[1] 2 1 2 2 1
+attr(,"levels")
+[1] "no" "yes"
+> x <- factor(c("yes", "no", "yes", "yes", "no"), levels = c("yes", "no"))
+>x
+[1] yes no yes yes no
+Levels: yes no
+
+```
