@@ -65,3 +65,20 @@ Lists are a special vector that **can contain elements of different classes**.
 
 Matrices are vectors with **dimension** attribute. The dimension attribute is itself an integer vector of length 2 (nrow, ncol).
 
+- Using the `matrix(nrow, ncol)` to create an empty matrices
+- Matrices are constructed *column-wise*
+
+```R
+>m <- matrix(1:6, nrow = 2, ncol = 3)
+>m
+	[,1] [,2] [,3]
+[1,]   1    3    5
+[2,]   2    4    6
+```
+
+- Matrices can also created directly from vectors by adding a dimension attribute.
+
+```R
+
+```
+
