@@ -48,3 +48,9 @@ Attributes of an object can be accessed using the `attributes()` function
 
 Objects can be explicitly coerced from one class to another using the `as.*` functions, if available.
 
+Nonsensical coercion results in `NA`
+
+### Lists
+
+Lists are a special vector that **can contain elements of different classes**. 
+
