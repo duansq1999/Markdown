@@ -89,3 +89,27 @@ Matrices are vectors with **dimension** attribute. The dimension attribute is it
 [2,]   2    4    6
 ```
 
+
+
+### cbind-ing and rbind-ing
+
+Matrices can be created by column-binding or row-binding with `cbind()`  and `rbind` .
+
+```R
+>x <- 1:3
+>y <- 4:5
+>cbind(x,y)
+	   x	y
+[1,]   1    4
+[2,]   2    5
+[3,]   3    6
+```
+
+
+
+## Data Types - Factors
+
+Factors are used to represent **categorical data**. Factors can be unordered(e.g. male or female) or ordered(e.g. middle school, high school). One can think of a factor as an integer vector where each a **label**.
+
+- Factors are treated specially by modeling functions like `lm()` and `glm()`
+- Using factors with labels is better than using integers because factors are self-describing
