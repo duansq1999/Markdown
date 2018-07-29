@@ -54,3 +54,14 @@ Nonsensical coercion results in `NA`
 
 Lists are a special vector that **can contain elements of different classes**. 
 
+- Using the `list()` functions to create
+- Lists have index
+
+
+
+## Data Types - Matrices
+
+### Matrices
+
+Matrices are vectors with **dimension** attribute. The dimension attribute is itself an integer vector of length 2 (nrow, ncol).
+
