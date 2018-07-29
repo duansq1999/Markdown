@@ -37,7 +37,7 @@ Attributes of an object can be accessed using the `attributes()` function
 
 
 
-## Data Types - Vectors and Lists
+## Vectors and Lists
 
 ### Creating Vectors
 
@@ -59,9 +59,7 @@ Lists are a special vector that **can contain elements of different classes**.
 
 
 
-## Data Types - Matrices
-
-### Matrices
+## Matrices
 
 Matrices are vectors with **dimension** attribute. The dimension attribute is itself an integer vector of length 2 (nrow, ncol).
 
@@ -89,10 +87,6 @@ Matrices are vectors with **dimension** attribute. The dimension attribute is it
 [2,]   2    4    6
 ```
 
-
-
-### cbind-ing and rbind-ing
-
 Matrices can be created by column-binding or row-binding with `cbind()`  and `rbind` .
 
 ```R
@@ -107,9 +101,7 @@ Matrices can be created by column-binding or row-binding with `cbind()`  and `rb
 
 
 
-## Data Types - Factors
-
-### Factors
+## Factors
 
 Factors are used to represent **categorical data**. Factors can be unordered(e.g. male or female) or ordered(e.g. middle school, high school). One can think of a factor as an integer vector where each a **label**.
 
@@ -138,5 +130,10 @@ Levels: yes no
 
 
 
-## Data Types - Missing values
+## Missing values
 
+Missing values ate denoted bu `NA` or `NaN` for undefined mathematical operations.
+
+- `is.na()` is used to test objects if they are `NA`
+- `is.nan` is used to test for `NaN`
+- 
