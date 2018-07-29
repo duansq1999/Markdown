@@ -134,5 +134,9 @@ attr(,"levels")
 >x
 [1] yes no yes yes no
 Levels: yes no
-
 ```
+
+
+
+## Data Types - Missing values
+
