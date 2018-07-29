@@ -219,3 +219,23 @@ graph LR
 
 ### Reading Data
 
+There are a few principal functions reading data into R:
+
+- `read.csv()`, `read.table()`, for reading tabular data
+- `readLines()`, for reading lines of a text file
+- `source()`, for reading in R code files (inverse of `dump()`)
+- `dget()`, for reading in R code files (inverse of `dput()`) 
+- `load()`, for reading in saved workplaces
+- `unserialize()`, for reading single R objects in binary form
+
+### Writing Data
+
+There are analogous functions for writing data to files:
+
+- `write.table()`
+- `writeLines()`
+- `dump()`
+- `dput()`
+- `save()`
+- `serialize()`
+
