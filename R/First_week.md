@@ -79,6 +79,13 @@ Matrices are vectors with **dimension** attribute. The dimension attribute is it
 - Matrices can also created directly from vectors by adding a dimension attribute.
 
 ```R
-
+>m <- 1:6
+>m
+[1] 1 2 3 4 5 6
+>dim(m) <- c(2,3)
+>m
+	[,1] [,2] [,3]
+[1,]   1    3    5
+[2,]   2    4    6
 ```
 
