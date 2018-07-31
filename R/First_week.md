@@ -249,6 +249,8 @@ There are a number of operators that can be used to extract subsets of R objects
 - `[[]]` is used to extract elements of a **list** or a **data frame**
 - `$` is used to extract elements of a list or data frame by **name**
 
+### Subsetting Vectors
+
 ```R
 > x <- c("a", "b", "C")
 > x[1]
@@ -258,5 +260,23 @@ There are a number of operators that can be used to extract subsets of R objects
 > lg <- c(TRUE, FALSE, TRUE)
 > x[lg]
 [1] "a" "C"
+```
+
+
+
+### Subsetting Lists
+
+```R
+> x <- list(foo = 1:4, bar = 0.6)
+> x[1]
+$foo
+[1] 1 2 3 4
+> x[[1]]
+[1] 1 2 3 4
+> x$bar
+[1] 0.6
+> x["bar"]
+$bar
+[1] 0.6
 ```
 
