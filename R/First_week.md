@@ -341,3 +341,51 @@ the `[[]]` can take an integer sequence
 [1] 1 2 3 4
 ```
 
+### Subsetting Remove Missing Values
+
+```R
+> x <- c(1, 2, NA, 3, NA)
+> bad <- is.na(x)
+> bad
+[1] FALSE FALSE  TRUE FALSE  TRUE
+> x[!bad]
+[1] 1 2 3
+```
+
+What if there are multiple things and you want to take the subset with no missing values?
+
+```R
+> x <- c(1, 2, NA, 4, NA, 5)
+> y <- c("a", NA, "b", "d", NA, "f")
+> good <- complete.cases(x, y)
+> good
+[1]  TRUE FALSE FALSE  TRUE FALSE  TRUE
+> x[good]
+[1] 1 4 5
+> y[good]
+[1] "a" "d" "f"
+```
+
+an example:
+
+```R
+> head(airquality)
+  Ozone Solar.R Wind Temp Month Day
+1    41     190  7.4   67     5   1
+2    36     118  8.0   72     5   2
+3    12     149 12.6   74     5   3
+4    18     313 11.5   62     5   4
+5    NA      NA 14.3   56     5   5
+6    28      NA 14.9   66     5   6
+> good <- complete.cases(airquality)
+> airquality_clear <- airquality[good,]
+> head(airquality_clear)
+  Ozone Solar.R Wind Temp Month Day
+1    41     190  7.4   67     5   1
+2    36     118  8.0   72     5   2
+3    12     149 12.6   74     5   3
+4    18     313 11.5   62     5   4
+7    23     299  8.6   65     5   7
+8    19      99 13.8   59     5   8
+```
+
