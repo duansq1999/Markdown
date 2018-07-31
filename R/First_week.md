@@ -243,3 +243,20 @@ There are analogous functions for writing data to files:
 
 ## Subsetting
 
+There are a number of operators that can be used to extract subsets of R objects.
+
+- `[]`returns an object of same class as the original
+- `[[]]` is used to extract elements of a **list** or a **data frame**
+- `$` is used to extract elements of a list or data frame by **name**
+
+```R
+> x <- c("a", "b", "C")
+> x[1]
+[1] "a"
+> x[x >= "b"]
+[1] "b" "C"
+> lg <- c(TRUE, FALSE, TRUE)
+> x[lg]
+[1] "a" "C"
+```
+
