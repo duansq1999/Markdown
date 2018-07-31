@@ -241,4 +241,5 @@ There are analogous functions for writing data to files:
 
 ### Reading Data Files with read.table
 
-dua
+## Subsetting
+
