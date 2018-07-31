@@ -333,3 +333,11 @@ the `[[]]` can take an integer sequence
 
 ### Subsetting Partial Matching
 
+```R
+> x <- list(foo = 1:4)
+> x$f
+[1] 1 2 3 4
+> x[["f", exact = FALSE]]
+[1] 1 2 3 4
+```
+
