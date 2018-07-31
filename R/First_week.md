@@ -267,7 +267,7 @@ There are a number of operators that can be used to extract subsets of R objects
 ### Subsetting Lists
 
 ```R
-> x <- list(foo = 1:4, bar = 0.6)
+> x <- list(foo = 1:4, bar = 0.6, bar = "hello")
 > x[1]
 $foo
 [1] 1 2 3 4
@@ -278,5 +278,34 @@ $foo
 > x["bar"]
 $bar
 [1] 0.6
+> x[c(2,3)]
+$bar
+[1] 0.6
+$bar
+[1] "hello"
+```
+
+the `[[` operator can be used with computed index
+
+```R
+> name <- "foo"
+> x[[name]] ## computed index for 'foo'
+[1] 1 2 3 4
+> x$name ## elements 'name' doesn't exist in list
+NULL
+> x$foo ## element 'foo' does exist
+[1] 1 2 3 4
+```
+
+the `[[]]` can take an integer sequence
+
+```R
+> x <- list(a = list(10, 12, 14), b = c(3.14, 2.71))
+> x[[c(1,3)]]
+[1] 14
+> x[[1]][[3]]
+[1] 14
+> x[[c(2,1)]]
+[1] 3.14
 ```
 
