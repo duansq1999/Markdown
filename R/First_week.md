@@ -309,3 +309,27 @@ the `[[]]` can take an integer sequence
 [1] 3.14
 ```
 
+### Subsetting Matrices
+
+```R
+> x <- matrix(1:6, 2, 3)
+> x[1, 2]
+[1] 3
+> x
+     [,1] [,2] [,3]
+[1,]    1    3    5
+[2,]    2    4    6
+> x[1, 2]
+[1] 3
+> ## indices can also be missing
+> x[1,]
+[1] 1 3 5
+> x[,2]
+[1] 3 4
+> x[1, 2, drop = FALSE]
+     [,1]
+[1,]    3
+```
+
+### Subsetting Partial Matching
+
