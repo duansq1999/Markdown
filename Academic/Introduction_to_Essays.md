@@ -166,3 +166,14 @@ Iceland is a beautiful country to visit to learn about a new culture.
 - Must support the thesis statement(must be specific!)
 - Must have keywords and/or a transition
 - Avoid pronouns!
+
+### Supporting Ideas
+
+- Topic Sentence
+  - support #1
+  - support #2
+  - support #3
+
+### Example
+
+![Selection_010](../Images/Selection_010.png)
