@@ -185,4 +185,9 @@ Iceland is a beautiful country to visit to learn about a new culture.
 - Smoothness between sentences and paragraphs
 - Makes your writing logical 
 - Do this with transition words and phrases(same as, first, another reason, finally, etc.)
+  - For example, also, furthermore...
+
+## Paragraph Basic
+
+How to Write a Paragraph.
 
