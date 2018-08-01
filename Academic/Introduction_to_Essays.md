@@ -163,6 +163,6 @@ Iceland is a beautiful country to visit to learn about a new culture.
 
 - Two parts
   - topic and controlling idea
-- Must support the thesis statement
+- Must support the thesis statement(must be specific!)
 - Must have keywords and/or a transition
-- Avoid pronouns
+- Avoid pronouns!
