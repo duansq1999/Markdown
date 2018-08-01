@@ -191,3 +191,10 @@ Iceland is a beautiful country to visit to learn about a new culture.
 
 How to Write a Paragraph.
 
+### Topic Sentences
+
+- Tell what the paragraph will be about.
+- Must have a **topic** and **controlling idea**
+- Indicates the type of paragraph
+
+### Check Unity and Coherence
