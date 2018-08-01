@@ -62,7 +62,7 @@ graph LR
 
 ### Rules of Academic Essays
 
-- 0Use 3rd  person pronouns
+- Use 3rd  person pronouns
 - Cite your source
 - Use correct  grammar and punctuation
 - Use correct format 
@@ -83,4 +83,39 @@ graph LR
   How to do something
 
 - Definition
+
+## Introduction Paragraphs
+
+- Hooks, Funnels, and Thesis Statements
+
+### Hooks
+
+- Attract attention
+- Create interest
+- Make the reader want to continue
+
+#### Surprising Statement
+
+- Some people may not realize that McDonald's hamburgers can last for many years without rotting.
+
+#### Anecdote(story)
+
+#### Questions
+
+- What makes teenagers lie to their parents?
+
+#### Quotation
+
+- Andy Warhol wisely pointed out that "As soon as you stop wanting something, you  get it."
+
+#### Statistic
+
+### Funnels
+
+- General statements/ Hook
+- More specific statements
+- Thesis statement
+  - topic(topic is the subject or the thing that you are taking)  + controlling idea
+
+
 
