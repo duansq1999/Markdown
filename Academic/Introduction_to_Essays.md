@@ -115,7 +115,25 @@ graph LR
 - General statements/ Hook
 - More specific statements
 - Thesis statement
-  - topic(topic is the subject or the thing that you are taking)  + controlling idea
+  - **topic**(topic is the subject or the thing that you are taking about)  + **controlling idea**(is what you want to say about the topic, it's where your argument is)
 
+### Things to Avoid
 
+- Don't announce your thesis(same as "*I will give*")
+- Don't write a fact(fact is not arguable)
+- Don't write a popular opinion
+- Don't use pronouns, be specific
+- Don't forget the two parts
 
+### Sample Thesis Statements
+
+Iceland is a beautiful country to visit to learn about a new culture.
+
+- The topic is Iceland, and the controlling idea is that it is a beautiful place to learn about a new culture.
+
+### What is Wrong with These Thesis Statements?
+
+- It's important to change it because it will protect the environment.
+- I will give four reasons why Germany won the Cup World.
+- People should stop smoking because it is dangerous for health and is a dirty habit.
+- Saving money is important.
