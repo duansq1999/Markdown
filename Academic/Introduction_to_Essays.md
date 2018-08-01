@@ -1,11 +1,13 @@
 [TOC]
 
-## What is an essay?
+# Introduction to Essays
+
+## What is an Essay?
 
 - A piece of writing about one topic
 - Several paragraphs or more
 
-### Parts of an essay
+### Parts of an Essay
 
 - Title
 
@@ -137,3 +139,22 @@ Iceland is a beautiful country to visit to learn about a new culture.
 - I will give four reasons why Germany won the Cup World.
 - People should stop smoking because it is dangerous for health and is a dirty habit.
 - Saving money is important.
+
+
+
+# More about Writing Essays
+
+## Body Paragraphs
+
+### Structure of a Body Paragraphs
+
+- Topic Sentence
+  - Supporting idea #1
+    - details and examples
+
+  - Supporting idea #2
+    - details and examples
+
+  - Supporting idea #3
+    - details and examples
+- Conclusion or Sentence Transition
