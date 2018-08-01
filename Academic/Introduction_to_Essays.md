@@ -177,3 +177,12 @@ Iceland is a beautiful country to visit to learn about a new culture.
 ### Example
 
 ![Selection_010](../Images/euna.png)
+
+
+
+### Coherence
+
+- Smoothness between sentences and paragraphs
+- Makes your writing logical 
+- Do this with transition words and phrases(same as, first, another reason, finally, etc.)
+
