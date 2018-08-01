@@ -62,7 +62,7 @@ graph LR
 
 ### Rules of Academic Essays
 
-- Use 3rd  person pronouns
+- 0Use 3rd  person pronouns
 - Cite your source
 - Use correct  grammar and punctuation
 - Use correct format 
