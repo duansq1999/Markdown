@@ -198,3 +198,4 @@ How to Write a Paragraph.
 - Indicates the type of paragraph
 
 ### Check Unity and Coherence
+
