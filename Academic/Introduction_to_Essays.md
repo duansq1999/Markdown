@@ -158,3 +158,11 @@ Iceland is a beautiful country to visit to learn about a new culture.
   - Supporting idea #3
     - details and examples
 - Conclusion or Sentence Transition
+
+### Topic Sentence
+
+- Two parts
+  - topic and controlling idea
+- Must support the thesis statement
+- Must have keywords and/or a transition
+- Avoid pronouns
