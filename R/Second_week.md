@@ -137,8 +137,27 @@ f <- function(<arquments>) {
 
 Functions have **named arguments** which potentially have **default values**.
 
-- The formal arguments are the arguments included in the function definition
+- The *formal arguments* are the arguments included in the function definition
 - The formals function returns a list of all the formal arguments of a function 
 - Not every function call in  R makes use of all the formal arguments
-- Function arguments can be missing or might have default values
+- Function arguments can be *missing* or might have default values
+
+### Argument Matching
+
+R functions arguments can be matched positionally or by name. So the following calls to `sd` are all equivalent
+
+```R
+> mydata <- rnorm(100)
+> sd(mydata)
+> sd(x = mydata)
+> sd(x = mydata, na.rm = FALSE)
+```
+
+```R
+> args(lm)
+function (formula, data, subset, weights, na.action, method = "qr", 
+    model = TRUE, x = FALSE, y = FALSE, qr = TRUE, singular.ok = TRUE, 
+    contrasts = NULL, offset, ...) 
+NULL
+```
 
