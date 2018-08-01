@@ -98,3 +98,47 @@ while(z >=3 && z <= 10) {
 
 ### Repeat 
 
+Repeat initiates an infinite loop. these are not commonly used in statistical applications but they do have their uses. The only way to exit a repeat loop is to call `break`.
+
+```R
+x0 <- 1
+tol <- 1e-8
+
+repeat {
+  x1 <- computeEstimate()
+  
+  if(abs(x1 - x0) < tol) {
+    break
+  } else {
+    x0 <- x1
+  }
+}
+```
+
+### next, return
+
+```R
+for(i in 1:100) {
+  if(i > 20) {
+    next
+  }
+}
+```
+
+## Functions
+
+```R
+f <- function(<arquments>) {
+    ## do something interesting
+}
+```
+
+### Function Arguments
+
+Functions have **named arguments** which potentially have **default values**.
+
+- The formal arguments are the arguments included in the function definition
+- The formals function returns a list of all the formal arguments of a function 
+- Not every function call in  R makes use of all the formal arguments
+- Function arguments can be missing or might have default values
+
