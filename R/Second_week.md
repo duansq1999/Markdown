@@ -161,3 +161,11 @@ function (formula, data, subset, weights, na.action, method = "qr",
 NULL
 ```
 
+
+
+## Coding Standards
+
+1. Always use text files / text editor
+2. Indent your code
+3. Limit the width of your code
+4. Limit the length of individual function
