@@ -203,3 +203,37 @@ There are a number of generic functions that work on dates and times
 - `months` : give the month name
 - `quarters`: give the quarter number
 
+```R
+> x <- Sys.time()
+> x
+[1] "2018-08-04 08:26:58 CST"
+> p <- as.POSIXlt(x)
+> names(unclass(p))
+ [1] "sec"    "min"    "hour"   "mday"   "mon"    "year"   "wday"   "yday"  
+ [9] "isdst"  "zone"   "gmtoff"
+> p$sec
+[1] 58.0464
+```
+
+```R
+> x <- Sys.time()
+> x
+[1] "2018-08-04 08:30:55 CST"
+> unclass(x)
+[1] 1533342655
+> x$sec
+Error in x$sec : $ operator is invalid for atomic vectors
+> p <- as.POSIXlt(x)
+> p$sec
+[1] 55.44776
+```
+
+Finally, there is the `strptime` function in case your dates are written in a different format
+
+```R
+> datestring <- c("January 10, 2018 10:40", "December 9, 2017 9:10")
+> x <- strptime(datestring, "%B %d, %Y %H:%M")
+> x
+[1] "2018-01-10 10:40:00 CST" "2017-12-09 09:10:00 CST"
+```
+
