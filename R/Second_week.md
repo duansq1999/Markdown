@@ -242,6 +242,14 @@ Finally, there is the `strptime` function in case your dates are written in a di
 You can use mathematical operations on dates and times,
 
 ```R
-
+> x <- as.Date("1999-05-24")
+> y <- strptime("January 10, 2018 10:40", "%B %d, %Y %H:%M")
+> x - y
+Error in x - y : non-numeric argument to binary operator
+In addition: Warning message:
+Incompatible methods ("-.Date", "-.POSIXt") for "-" 
+> x <- as.POSIXlt(x)
+> x - y
+Time difference of -6806.111 days
 ```
 

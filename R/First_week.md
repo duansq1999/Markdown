@@ -241,6 +241,17 @@ There are analogous functions for writing data to files:
 
 ### Reading Data Files with read.table
 
+The `read.table` function is one of the most commonly used function for reading data. It has a few important argument:
+
+- `file` : the name of a file
+- `header` : logical indicating if the file has a header line
+- `sep` : a string indicating how columns are separated
+- `colClasses` : a character vector indicating the class of each column in the dataset
+- `nrows` : the number of rows in the dataset
+- `comment.char` : a character string indicating the comment character
+- `skip`: the number of lines to skip form the beginning
+- `stringsAsFactors` : should character variables be coded as factors
+
 ## Subsetting
 
 There are a number of operators that can be used to extract subsets of R objects.
