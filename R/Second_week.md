@@ -169,3 +169,13 @@ NULL
 2. Indent your code
 3. Limit the width of your code
 4. Limit the length of individual function
+
+## Dates and Times in R
+
+R has developed a special representation of dates and times
+
+- Dates are represented by `Data` class
+- Times are represented by the `POSIXct` or `PODIClt` class
+- Dates are stored internally as the number of days since 1970-01-01
+- Time are stored internally as the number of seconds since 1970-01-01
+
