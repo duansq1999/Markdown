@@ -237,3 +237,11 @@ Finally, there is the `strptime` function in case your dates are written in a di
 [1] "2018-01-10 10:40:00 CST" "2017-12-09 09:10:00 CST"
 ```
 
+### Operations on Dates and Times
+
+You can use mathematical operations on dates and times,
+
+```R
+
+```
+
