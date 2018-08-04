@@ -179,3 +179,27 @@ R has developed a special representation of dates and times
 - Dates are stored internally as the number of days since 1970-01-01
 - Time are stored internally as the number of seconds since 1970-01-01
 
+### Dates in R
+
+```R
+> x <- as.Date("1970-01-01")
+> x
+[1] "1970-01-01"
+> unclass(x)
+[1] 0
+> unclass(as.Date("1970-01-02"))
+[1] 1
+```
+
+### Times in R
+
+- `POSIXct`is just very large integer under the hood ; it use a useful class when you want to store times in something like a date frame
+
+- `POSIXlt` is a list underneath and it stores as bunch of other useful information like the day of the week, day of the year , month, day of the month
+
+There are a number of generic functions that work on dates and times
+
+- `weekdays` : give the day of the week
+- `months` : give the month name
+- `quarters`: give the quarter number
+
