@@ -146,3 +146,41 @@ Now, let's make your first commit! From the terminal, type the command along wit
 
 If you're having trouble thinking of a good commit message, <u>reflect on how the project has changed since it began.</u>
 
+### git log
+
+Often with Git, you'll need to refer back to an earlier version of a project. Commits are stored chronologically in the repository and can be viewed with:
+
+```bash
+git log
+```
+
+From the terminal, log a list of your commits.
+
+```bash
+$ git log
+commit 8368846f86a477bc7e68c169f298e65e0ae18b17
+Author: codecademy <ccuser@codecademy.com>
+Date:   Wed Aug 8 15:36:59 2018 +0000
+
+    now
+```
+
+In the output, notice:
+
+- A 40-character code, called a *SHA*, that uniquely identifies the commit. This appears in orange text.
+- The commit author (you!)
+- The date and time of the commit
+- The commit message
+
+### Generalizations
+
+You have now been introduced to the fundamental Git workflow. You learned a lot! Let's take a moment to generalize:
+
+- Git is the industry-standard version control system for web developers
+- Use Git commands to help keep track of changes made to a project:
+  - `git init` creates a new Git repository
+  - `git status` inspects the contents of the working directory and staging area
+  - `git add` adds files from the working directory to the staging area
+  - `git diff` shows the difference between the working directory and the staging area
+  - `git commit` permanently stores file changes from the staging area in the repository
+  - `git log` shows a list of all previous commits
