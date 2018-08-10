@@ -14,6 +14,8 @@
 
 ### Preparation of water-soluble polysaccharides
 
+### Determination of nutrients
+
 ### Monosaccharide composition
 
 ### Molecular weight determination
@@ -35,6 +37,8 @@
 ### Monosaccharide composition
 
 ### Molecular weight determination
+
+### Determination of nutrients
 
 ### FT-IR spectral analysis
 
