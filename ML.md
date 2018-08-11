@@ -87,4 +87,4 @@ unlabeled examples: {features, ?}: (x, ?)
 
 首先建议您将数据绘制成图表，了解下数据的分布情况：
 
-![sound](/home/duansq/Documents/Markdown/Images/sound.png)
+![sound](Images/sound.png)
