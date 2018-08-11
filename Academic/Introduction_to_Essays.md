@@ -199,3 +199,25 @@ How to Write a Paragraph.
 
 ### Check Unity and Coherence
 
+## Conclusion Paragraph
+
+### How to End the Essay
+
+- Summarize major points
+- Restate the thesis
+- Leave a final thought
+- **Don't state new information**
+
+### Other Ways to  End an Essay
+
+- Predict an outcome
+
+  More people will buy electric cars when the price becomes affordable.
+
+- Make a suggestion
+
+  Electric cars should be made more  affordable so that people can buy them.
+
+- Call for action
+
+  People should tell their lawmakers that they want electric cars to be more easily available
