@@ -199,6 +199,10 @@ How to Write a Paragraph.
 
 ### Check Unity and Coherence
 
+
+
+# Writing Essay Conclusion
+
 ## Conclusion Paragraph
 
 ### How to End the Essay
@@ -220,4 +224,31 @@ How to Write a Paragraph.
 
 - Call for action
 
-  People should tell their lawmakers that they want electric cars to be more easily available
+  People should tell their lawmakers that they want electric cars to be more easily available.
+
+## The Writing Process 
+
+### Step 1: Prewriting
+
+- Clustering
+- Outline
+
+### Step 2: Writing
+
+- Rough Draft
+
+### Step 3: Rewriting
+
+- Revise
+- Edit
+
+
+
+```mermaid
+graph LR
+	a((Write)) --> b((Revise))
+	b --> c((Write))
+	c --> d((Revise))
+	d --> a
+```
+
