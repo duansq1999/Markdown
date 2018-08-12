@@ -50,3 +50,12 @@ In the picture above A is similar, B is different.
 - Make a Venn Diagram or T chart
 - Plan on similarity or difference for each body paragraph
 
+## Appendix
+
+### Outline for a Compare and Contrast Essay: Point by Point
+
+This is an example of outline for a Point by Point type of Compare and Contrast Essay. Use this example outline as a guideline when writing a compare and contrast essay outline.
+
+![1534074100462](assets/1534074100462.png)![1534074121358](assets/1534074121358.png)
+
+![1534074136887](assets/1534074136887.png)

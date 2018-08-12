@@ -59,3 +59,5 @@ What usually happens after a stock market crash?
 - Make an outline to plan each paragraph.
 
 ![1534073775814](assets/1534073775814.png)
+
+Put causes on one side and effects on the other.
