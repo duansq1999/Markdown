@@ -15,3 +15,16 @@ After you learn the Cause/Effect video lecture, you will be able to:
 - *Cause* means *what makes something happen*. A synonym is reason.
 - *Effect* means *what happens as as result*.
 - When you write this essay, you need to focus on either causes or effects, not both!
+
+## Before You Write
+
+- Think about your topic
+- Make a plan
+
+![pp](../Images/026.png)
+
+### Thesis Statement
+
+- Needs to indicate whether you are writing about causes or effects.
+- It can indicate what the body paragraphs will be about or not.
+
