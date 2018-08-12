@@ -33,3 +33,12 @@ On the left we have what's called a **Venn diagram**; Another type of  diagram y
 
 ![Venn](../Images/Selection_024.png)
 
+### Thesis Statement
+
+- Mention the **two things** you are comparing or contrasting in your thesis statement.
+- Indicate whether you will compare or contrast.
+
+### Method of Organization
+
+![T](../Images/Selection_025.png)
+
