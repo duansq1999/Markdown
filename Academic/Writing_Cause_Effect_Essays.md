@@ -52,3 +52,10 @@ What usually happens after a stock market crash?
 - The government makes new regulations to prevent another crash.
 - Companies shrink and lay off employees.
 
+## Planning
+
+- When you write cause/effect essay, think about whether you want to write about causes OR effects.
+- Plan one cause or one effect for each body paragraph.
+- Make an outline to plan each paragraph.
+
+![1534073775814](assets/1534073775814.png)
