@@ -31,3 +31,8 @@ After you learn the Argument video lecture, you will be able to:
 - Decide how to convince your reader
 - Consider opposing points
 
+## Thesis Statement
+
+- Needs to indicate the topic and your position on the topic
+- Make sure it is debatable
+- It can indicate what the body paragraphs will about or not
