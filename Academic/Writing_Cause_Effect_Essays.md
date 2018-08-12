@@ -39,3 +39,16 @@ Why are more people studying a second or third language?
 - They want to try to get a better job.
 - They want to be able to interact internationally. 
 - They want to improve themselves.
+
+### Outline for Effect Essay
+
+![028](../Images/028.png)
+
+### Sample Effect Essay
+
+What usually happens after a stock market crash?
+
+- People get scared and take their money out of the stock market.
+- The government makes new regulations to prevent another crash.
+- Companies shrink and lay off employees.
+
