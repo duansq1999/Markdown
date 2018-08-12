@@ -42,3 +42,11 @@ On the left we have what's called a **Venn diagram**; Another type of  diagram y
 
 ![T](../Images/Selection_025.png)
 
+In the picture above A is similar, B is different.
+
+### Planning Your Essay
+
+- You will use point-by-point method
+- Make a Venn Diagram or T chart
+- Plan on similarity or difference for each body paragraph
+
