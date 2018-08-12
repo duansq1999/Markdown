@@ -34,5 +34,18 @@ After you learn the Argument video lecture, you will be able to:
 ## Thesis Statement
 
 - Needs to indicate the topic and your position on the topic
-- Make sure it is debatable
+- Make sure it is debatable 
 - It can indicate what the body paragraphs will about or not
+
+## Consider Opposing Points
+
+University tuition costs should be decreased.
+
+![1534078827944](assets/1534078827944.png)
+
+## Kinds of Body Paragraphs
+
+- Reasons
+- Answer to opposition
+- Example
+
