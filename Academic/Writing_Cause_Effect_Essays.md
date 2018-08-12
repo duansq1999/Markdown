@@ -28,3 +28,14 @@ After you learn the Cause/Effect video lecture, you will be able to:
 - Needs to indicate whether you are writing about causes or effects.
 - It can indicate what the body paragraphs will be about or not.
 
+### Outline for Cause Essay
+
+![027](../Images/027.png)
+
+### Sample Cause Essay
+
+Why are more people studying a second or third language?
+
+- They want to try to get a better job.
+- They want to be able to interact internationally. 
+- They want to improve themselves.
