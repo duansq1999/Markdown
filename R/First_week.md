@@ -1,8 +1,8 @@
 [TOC]
 
-## R Objects and Attributes
+# R Objects and Attributes
 
-### Objects
+## Objects
 
 The five basic or "atomic" classes of objects:
 
@@ -17,13 +17,13 @@ The most basic object is *vector*
 - A vector can only contain objects of same class
 - Empty vector can be created with the `vector()`function
 
-### Numbers 
+## Numbers 
 
 - If you explicitly want an integer, you need to specify the `L` suffix
 - There is a special **number** `Inf`  which represents **infinity**
 - The value `NaN` represents an undefined value("**not a number**"), it can also be thought of as a **missing value**
 
-### Attributes
+## Attributes
 
 R objects can have attributes:
 
@@ -37,20 +37,20 @@ Attributes of an object can be accessed using the `attributes()` function
 
 
 
-## Vectors and Lists
+# Vectors and Lists
 
-### Creating Vectors
+## Creating Vectors
 
 - Using the  `c()` function
 - Using the `vector()` function
 
-### Explicit Coercion
+## Explicit Coercion
 
 Objects can be explicitly coerced from one class to another using the `as.*` functions, if available.
 
 Nonsensical coercion results in `NA`
 
-### Lists
+## Lists
 
 Lists are a special vector that **can contain elements of different classes**. 
 
@@ -59,7 +59,7 @@ Lists are a special vector that **can contain elements of different classes**.
 
 
 
-## Matrices
+# Matrices
 
 Matrices are vectors with **dimension** attribute. The dimension attribute is itself an integer vector of length 2 (nrow, ncol).
 
@@ -103,7 +103,7 @@ Matrices can be created by column-binding or row-binding with `cbind()`  and `rb
 
 
 
-## Factors
+# Factors
 
 Factors are used to represent **categorical data**. Factors can be unordered(e.g. male or female) or ordered(e.g. middle school, high school). One can think of a factor as an integer vector where each a **label**.
 
@@ -132,7 +132,7 @@ Levels: yes no
 
 
 
-## Missing values
+# Missing values
 
 Missing values ate denoted bu `NA` or `NaN` for undefined mathematical operations.
 
@@ -143,7 +143,7 @@ Missing values ate denoted bu `NA` or `NaN` for undefined mathematical operation
 
 
 
-## Data Frames
+# Data Frames
 
 Data frames are used to store tabular data.
 
@@ -168,7 +168,7 @@ Data frames are used to store tabular data.
 
 
 
-## Names Attribute
+# Names Attribute
 
 R objects can also have **names**, which is very useful for writing readable code and self-describing objects. 
 
@@ -198,7 +198,7 @@ r2  2  4
 
 
 
-## Summary
+# Summary
 
 ```mermaid
 graph LR
@@ -215,9 +215,9 @@ graph LR
 	type---n(names)
 ```
 
-## Reading Tabular Data
+# Reading Tabular Data
 
-### Reading Data
+## Reading Data
 
 There are a few principal functions reading data into R:
 
@@ -228,7 +228,7 @@ There are a few principal functions reading data into R:
 - `load()`, for reading in saved workplaces
 - `unserialize()`, for reading single R objects in binary form
 
-### Writing Data
+## Writing Data
 
 There are analogous functions for writing data to files:
 
@@ -239,7 +239,7 @@ There are analogous functions for writing data to files:
 - `save()`
 - `serialize()`
 
-### Reading Data Files with read.table
+# Reading Data Files with read.table
 
 The `read.table` function is one of the most commonly used function for reading data. It has a few important argument:
 
@@ -260,7 +260,7 @@ There are a number of operators that can be used to extract subsets of R objects
 - `[[]]` is used to extract elements of a **list** or a **data frame**
 - `$` is used to extract elements of a list or data frame by **name**
 
-### Subsetting Vectors
+## Subsetting Vectors
 
 ```R
 > x <- c("a", "b", "C")
@@ -275,7 +275,7 @@ There are a number of operators that can be used to extract subsets of R objects
 
 
 
-### Subsetting Lists
+## Subsetting Lists
 
 ```R
 > x <- list(foo = 1:4, bar = 0.6, bar = "hello")
@@ -320,7 +320,7 @@ the `[[]]` can take an integer sequence
 [1] 3.14
 ```
 
-### Subsetting Matrices
+## Subsetting Matrices
 
 ```R
 > x <- matrix(1:6, 2, 3)
@@ -342,7 +342,7 @@ the `[[]]` can take an integer sequence
 [1,]    3
 ```
 
-### Subsetting Partial Matching
+## Subsetting Partial Matching
 
 ```R
 > x <- list(foo = 1:4)
@@ -352,7 +352,7 @@ the `[[]]` can take an integer sequence
 [1] 1 2 3 4
 ```
 
-### Subsetting Remove Missing Values
+# Subsetting Remove Missing Values
 
 ```R
 > x <- c(1, 2, NA, 3, NA)
@@ -420,7 +420,7 @@ Many operations in R are **vectorized** making code more efficient, concise, and
 [1] 0.1666667 0.2857143 0.3750000 0.4444444
 ```
 
-### Vectorized Matrix Operations
+## Vectorized Matrix Operations
 
 ```R
 > x <- matrix(1:4, 2, 2); y <- matrix(rep(10,4), 2, 2)
