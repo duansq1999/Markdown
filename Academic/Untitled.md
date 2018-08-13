@@ -1,13 +1,13 @@
 [TOC]
 
-## Writing Longer Essays 
+# Writing Longer Essays 
 
 The following  content will show you how to add more body paragraphs to your essay. After you watch the video, you will be able to:
 
 - write a variety of types of paragraphs
 - write essays with more than three body paragraphs
 
- ### Different Types of Body Paragraphs
+ ## Different Types of Body Paragraphs
 
 A:
 

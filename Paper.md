@@ -1,56 +1,56 @@
 [TOC]
 
-## Abstract
+# Abstract
 
 
 
-## Introduction
+# Introduction
 
 
 
-## Materials and methods
+# Materials and methods
 
-### Sample preparation and chemicals
+## Sample preparation and chemicals
 
-### Preparation of water-soluble polysaccharides
+## Preparation of water-soluble polysaccharides
 
-### Determination of nutrients
+## Determination of nutrients
 
-### Monosaccharide composition
+## Monosaccharide composition
 
-### Molecular weight determination
+## Molecular weight determination
 
-### FT-IR and ultraviolet analysis
+## FT-IR and ultraviolet analysis
 
-### In-vitro antioxidant activities
+## In-vitro antioxidant activities
 
-#### DPPH radical scavenging activity
+### DPPH radical scavenging activity
 
-#### Ferrous ion reducing power
+### Ferrous ion reducing power
 
-#### Metal chelating activity
+### Metal chelating activity
 
-### Statistical analysis
+## Statistical analysis
 
-## Results and discussion
+# Results and discussion
 
-### Monosaccharide composition
+## Monosaccharide composition
 
-### Molecular weight determination
+## Molecular weight determination
 
-### Determination of nutrients
+## Determination of nutrients
 
-### FT-IR spectral analysis
+## FT-IR spectral analysis
 
-### Antioxidant activities in vitro
+## Antioxidant activities in vitro
 
-#### DPPH radical scavenging activity
+### DPPH radical scavenging activity
 
-#### Ferrous ion reducing power
+### Ferrous ion reducing power
 
-#### Metal chelating activity
+### Metal chelating activity
 
-### Relationship between structural characteristics and anti oxidant activities
+## Relationship between structural characteristics and anti oxidant activities
 
-## Conclusion
+# Conclusion
 
