@@ -74,6 +74,7 @@ def count_DNA(string):
 In [4]:
 
 ```python
+
 print(count_DNA(r_dna))
 ```
 
