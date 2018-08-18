@@ -2,6 +2,6 @@
 
 # Academic
 
-1. (Introduction to Essays)[./Academic/InIntroduction_to_Essays.md] 
+1. [Introduction to Essays](Academic/Introduction_to_Essays.md)
+2. [Writing Longer Essays](Academic/Writing_Longer_Essays.md)
 
-   
