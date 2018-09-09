@@ -24,13 +24,13 @@
 
    - Property of system：用于确定体系的各种宏观物理量称为体系的性质或者状态性质；
 
-   - Extensive properties：广度性质的数值与体系中的物质的量成正比，具有加和性；
+     - Extensive properties：广度性质的数值与体系中的物质的量成正比，具有加和性；
 
-     如：力，面积，质量，体积，热熔等。
+       如：力，面积，质量，体积，热熔等。
 
-   - Intensive properties：强度性质通常是由两个广度性质之比构成。
+     - Intensive properties：强度性质通常是由两个广度性质之比构成。
 
-     如：压力（力与面积的比值），温度，浓度，密度等。
+       如：压力（力与面积的比值），温度，浓度，密度等。
 
 3. 状态与状态函数
 
@@ -49,3 +49,51 @@
      $$
      \mathrm{d} V=(\frac{\partial V}{\partial T})_p\mathrm{d}T+(\frac{\partial V}{\partial p})_T\mathrm{d}p
      $$
+
+     由状态1到状态2的体积改变量为：
+     $$
+     \Delta V = \int_{V_1}^{V_2}\mathrm{d}V=V_2-V1
+     $$
+     状态函数沿闭合回路的积分为0，即：
+     $$
+     \begin{align*}
+     \oint\mathrm{d}V&=\oint(\frac{\partial V}{\partial T})_p\mathrm{d}T+(\frac{\partial V}{\partial p})_T\mathrm{d}p\\
+     &=\iint \left[\begin{matrix}\frac{\partial}{\partial T}&\frac{\partial}{\partial p}\\\left(\frac{\partial V}{\partial T}\right)_p&\left(\frac{\partial V}{\partial p}\right)_T\end{matrix}\right]\mathrm{d}T\mathrm{d}p\\
+     &=\iint\left(\frac{\partial^2V}{\partial T\partial p}-\frac{\partial^2V}{\partial T\partial p}\right)\mathrm{d}T\mathrm{d}p\\
+     &=0
+     \end{align*}
+     $$
+
+4. 过程和途径
+
+   - Process：当体系的状态发生变化时，把状态变化的经过称为过程；
+   - Path：完成变化的具体步骤称为途径。
+
+   热力学常用的过程有：
+
+   1. 等温过程
+   2. 等压过程
+   3. 绝热过程；例如炸弹开始爆炸的一瞬间，快速燃烧等。
+   4. 等体过程
+
+5. 热和功
+
+   体系的状态发生改变时，通常会伴随着体系与环境进行能量的交换，其中能量的交换形式主要有两种：
+
+   1. Heat：由于体系与环境有温度差所引起的能量流动；
+
+      体系状态发生变化时表现为吸热（$Q>0$）和放热（$Q<0$），这里记住是以体系自身为参考对象，例如体系吸收了热量，所以体系的$Q>0$；
+
+   2. Work：除了由于温度差造成了能量流动外的能量；
+
+      主流规定是：体系对环境做功，$W<0$，环境对体系做功，$W>0$；这里同样是以体系自身为参考对象，例如体系朝着环境做了功，所以体系就少了一部分能量，因此$W<0$；
+
+      功的形式可以分为两种：
+
+      - Volume work
+      - Novolume work
+
+   由于热和功都是体系状态发生改变时与环境交换的能量，因此热和功不是状态函数！而是过程量。这种过程量我们不能用全微分表示，而用半微分表示，记为$\delta Q$和$\mathrm{\delta} W$。
+
+#### 热力学第一定律
+
