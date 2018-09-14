@@ -64,7 +64,7 @@
      \end{align*}
      $$
 
-4. 过程和途径
+4. gog过程和途径
 
    - Process：当体系的状态发生变化时，把状态变化的经过称为过程；
    - Path：完成变化的具体步骤称为途径。
@@ -97,3 +97,49 @@
 
 #### 热力学第一定律
 
+1. 能量守恒
+
+   能量守恒定律在热力学体系中的应用称为热力学第一定律（First law of thermodynamics）。
+
+2. 热力学能和热力学第一定律的数学形式
+
+   热力学能旧称内能，是一种广度量，具有加和性，但其绝对值目前无法确定。
+
+   体系由状态$\mathrm{I}$到状态$\mathrm{II}$，热力学能的改变量$\Delta U$等于体系从环境吸收的热量与环境对体系做的功的加和，即
+   $$
+   \Delta U = U_2-U_1=Q+W
+   $$
+   或者
+   $$
+   \mathrm{d}U=\delta Q+\delta W
+   $$
+
+
+### 可逆过程与最大功
+
+#### 功与过程的关系
+
+若体系**反抗外压**$p_e$体积改变了$\mathrm{d}V$，则体积功为：
+$$
+\begin{align*}
+\delta W&=\vec{F}\cdot \mathrm{d}\vec{x}=p_eS\cdot\mathrm{d}x\cdot\cos\pi\\
+&=-p_e\cdot\mathrm{d}Sx\\
+&=-p_e\mathrm{d}V
+\end{align*}
+$$
+或
+$$
+W=\int_{V_1}^{V_2}-p_e\mathrm{d}V
+$$
+根据表达式，我们可以知道：
+
+若体系的$\mathrm{d}V>0$，则$\mathrm{d}W<0$，即体系要想增大自身的体积，就要牺牲自身的功为代价，反之亦然。
+
+下面我们来计算上面那个积分的具体值是多少，我们考虑一个膨胀过程，这个体系的体积一点点的增大，假设体系的内压为$p$且比$p_e$大一个一阶无穷小量$\mathrm{d}p$，即$p_e=p-dp$，并且由理想气体的状态方程我们可以知道：
+$$
+\begin{align*}
+W&=\int_{V_1}^{V_2}-p_e\mathrm{d}V=-\int_{V_1}^{V_2}(p-\mathrm{d}p)\mathrm{d}V\\
+&=-\int_{V_1}^{V_2}p\mathrm{d}V+\int_{V_1}^{V_2}\mathrm{d}p\mathrm{d}V=-\int_{V_1}^{V_2}\frac{nRT}{V}\mathrm{d}V\\
+&=-nRT\ln{\frac{V_2}{V_1}}
+\end{align*}
+$$
