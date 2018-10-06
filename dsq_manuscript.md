@@ -12,3 +12,11 @@
    2. 单糖组成
    3. 红外
    4. 体内降血糖实验
+
+
+$$
+\begin{align*}
+\lim_{x\to \infty}(\sqrt {x^2+1}-\sqrt{x^2-2})&=\lim_{x\to \infty}\left(\frac{\sqrt {x^2+1}-\sqrt{x^2-2}}{1}\right)\\&=\lim_{x\to \infty}\left[\frac{(\sqrt {x^2+1}-\sqrt{x^2-2})\cdot(\sqrt {x^2+1}+\sqrt{x^2-2})}{1\cdot(\sqrt {x^2+1}+\sqrt{x^2-2})}\right]\\&=\lim_{x\to \infty}\left(\frac{3}{\sqrt {x^2+1}+\sqrt{x^2-2}}\right)=0
+\end{align*}
+$$
+
