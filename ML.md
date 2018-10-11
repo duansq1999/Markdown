@@ -295,3 +295,31 @@ $$
 - 使用 TensorFlow 的一种高级 API 开发线性回归代码。
 - 尝试不同的学习速率。
 
+
+$$
+\because\left|\frac{\sqrt{n^2-1}}{2n}-\frac{1}{2}\right|=\left|\frac{\sqrt{n^2-1}-n}{2n}\right|=\frac{n-\sqrt{n^2-1}}{2n}=\frac{1}{2n(n+\sqrt{n^2-1})}<\frac{1}{2n}<\epsilon\\
+$$
+
+$$
+\lim_{n\to\infty}0.999...=\lim_{n\to\infty}3\times0.333...=\lim_{n\to\infty}3\times\frac{1}{3}=13
+$$
+
+$$
+\begin{align*}
+\lim_{x\to\infty}\left(\frac{2x+3}{2x+1}\right)^{x+1}&=\lim_{x\to\infty}\left(1+\frac{2}{2x+1}\right)^{x+1}\\
+&=\lim_{x\to\infty}\left(1+\frac{1}{x+\frac{1}{2}}\right)^{x+1}\\
+&=\lim_{x\to\infty}\left[\left(1+\frac{1}{x+\frac{1}{2}}\right)^{x+\frac{1}{2}}\right]^{\frac{x+1}{x+\frac{1}{2}}}\\
+&=\exp\left(\lim_{x\to\infty}\frac{x+1}{x+\frac{1}{2}}\right)\\
+&=e
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\lim_{x\to\infty}x[\ln(x+1)-\ln x]&=\lim_{x\to\infty}x\ln\left(\frac{x+1}{x}\right)\\
+&=\lim_{x\to\infty}\ln\left(\frac{x+1}{x}\right)^x\\
+&=\lim_{x\to\infty}\ln\left(1+\frac{1}{x}\right)^x\\
+&=\ln e=e
+\end{align*}
+$$
+

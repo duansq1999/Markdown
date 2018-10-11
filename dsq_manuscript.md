@@ -4,7 +4,7 @@
 
 3. 活性物质的确定
 
-   分别用粗多糖（从水提物中提取出来的粗多糖，含量和水提物中的粗多糖大致相等）、水提物（含粗多糖、蛋白质和小分子物质）和醇提物（脂溶性物质）做alpha-葡萄糖苷酶和alpha-淀粉酶的抑制活性，确定粗多糖为主要活性物质。
+   分别用粗多糖（从水提物中提取出来的粗多糖，含量和水提物中的粗多糖大致相等）、水提物（含粗多糖、蛋白质和小分子物质）和醇提物（脂溶性	物质）做alpha-葡萄糖苷酶和alpha-淀粉酶的抑制活性，确定粗多糖为主要活性物质。
 
 4. 多糖的构效分析
 
@@ -19,4 +19,15 @@ $$
 \lim_{x\to \infty}(\sqrt {x^2+1}-\sqrt{x^2-2})&=\lim_{x\to \infty}\left(\frac{\sqrt {x^2+1}-\sqrt{x^2-2}}{1}\right)\\&=\lim_{x\to \infty}\left[\frac{(\sqrt {x^2+1}-\sqrt{x^2-2})\cdot(\sqrt {x^2+1}+\sqrt{x^2-2})}{1\cdot(\sqrt {x^2+1}+\sqrt{x^2-2})}\right]\\&=\lim_{x\to \infty}\left(\frac{3}{\sqrt {x^2+1}+\sqrt{x^2-2}}\right)=0
 \end{align*}
 $$
+
+$$
+\lim_{n\to\infty}\frac{\sqrt{n^2-1}}{2n}=\frac{1}{2}\\
+\forall \epsilon > 0 \\
+\begin{align*}
+&\because\left|\frac{\sqrt{n^2-1}}{2n}-\frac{1}{2}\right|=\left|\frac{\sqrt{n^2-1}-n}{2n}\right|=\frac{n-\sqrt{n^2-1}}{2n}=\frac{1}{2n(n+\sqrt{n^2-1})}<\frac{1}{2n}<\epsilon\\
+&\therefore n>\frac{1}{2\epsilon}\therefore \exist N=\frac{1}{2\epsilon}
+\end{align*}
+$$
+
+
 
