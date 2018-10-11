@@ -323,3 +323,10 @@ $$
 \end{align*}
 $$
 
+$$
+\begin{align*}
+&\lim_{x\to\infty}\left(1+\frac{1}{x}\right)^x=e\\
+&\lim_{x\to\infty}\frac{\sin x}{x}=1
+\end{align*}
+$$
+
