@@ -42,15 +42,11 @@ Homo_sapiens.GRCh38.81.abinitio.gtf.gz
 Definition and supported options
 --------------------------------
 
-The GTF (General Transfer Format) is an extension of GFF version 2 
-and used to represent transcription models. GFF (General Feature Format) 
-consists of one line per feature, each containing 9 columns of data. 
+The GTF (General Transfer Format) is an extension of GFF version 2 and used to represent transcription models. GFF (General Feature Format) consists of one line per feature, each containing 9 columns of data. 
 
 Fields
 
-Fields are tab-separated. Also, all but the final field in each 
-feature line must contain a value; "empty" columns are denoted 
-with a '.'
+Fields are tab-separated. Also, all but the final field in each feature line must contain a value; "empty" columns are denoted with a '.'
 
     seqname   - name of the chromosome or scaffold; chromosome names 
                 without a 'chr' 
@@ -78,8 +74,7 @@ with a '.'
 
 Attributes
 
-The following attributes are available. All attributes are semi-colon
-separated pairs of keys and values.
+The following attributes are available. All attributes are semi-colon separated pairs of keys and values.
 
 - gene_id: The stable identifier for the gene
 - gene_version: The stable identifier version for the gene
@@ -115,14 +110,11 @@ Tags are additional flags used to indicate attibutes of the transcript.
 
 Comments
 
-Lines may be commented out by the addition of a single # character at the start. These
-lines should be ignored by your parser.
+Lines may be commented out by the addition of a single # character at the start. These lines should be ignored by your parser.
 
 Pragmas/Metadata
 
-GTF files can contain meta-data. In the case of experimental meta-data these are 
-noted by a #!. Those which are stable are noted by a ##. Meta data is a single key,
-a space and then the value. Current meta data keys are:
+GTF files can contain meta-data. In the case of experimental meta-data these are noted by a #!. Those which are stable are noted by a ##. Meta data is a single key, a space and then the value. Current meta data keys are:
 
 * genome-build -  Build identifier of the assembly e.g. GRCh37.p11
 * genome-version - Version of this assembly e.g. GRCh37
