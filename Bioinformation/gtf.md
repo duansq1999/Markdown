@@ -44,7 +44,7 @@ Definition and supported options
 
 The GTF (General Transfer Format) is an extension of GFF version 2 and used to represent transcription models. GFF (General Feature Format) consists of one line per feature, each containing 9 columns of data. 
 
-Fields
+#### Fields
 
 Fields are tab-separated. Also, all but the final field in each feature line must contain a value; "empty" columns are denoted with a '.'
 
@@ -72,9 +72,9 @@ Fields are tab-separated. Also, all but the final field in each feature line mus
                 providing additional information about each feature. A key can be
                 repeated multiple times.
 
-Attributes
+#### Attributes
 
-The following attributes are available. All attributes are semi-colon separated pairs of keys and values.
+###### The following attributes are available. All attributes are semi-colon separated pairs of keys and values.
 
 - gene_id: The stable identifier for the gene
 - gene_version: The stable identifier version for the gene
@@ -95,7 +95,7 @@ The following attributes are available. All attributes are semi-colon separated 
 - tag: A collection of additional key value tags
 - transcript_support_level: Ranking to assess how well a transcript is supported (from 1 to 5)
 
-Tags
+#### Tags
 
 Tags are additional flags used to indicate attibutes of the transcript.
 
@@ -108,7 +108,7 @@ Tags are additional flags used to indicate attibutes of the transcript.
 - mRNA_start_NF: the mRNA start could not be confirmed.
 - basic: the transcript is part of the gencode basic geneset
 
-Comments
+#### Comments
 
 Lines may be commented out by the addition of a single # character at the start. These lines should be ignored by your parser.
 
