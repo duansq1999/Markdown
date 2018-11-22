@@ -2,7 +2,6 @@
 
 heiheihei
 
-uan
 # Academic
 
 1. [Introduction to Essays](Academic/Introduction_to_Essays.md)
