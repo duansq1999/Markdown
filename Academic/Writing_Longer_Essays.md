@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 [TOC]
 
 # Writing Longer Essays 

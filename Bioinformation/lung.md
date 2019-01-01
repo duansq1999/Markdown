@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 ### High *ECT2* expression is an independent prognostic factor for poor overall survival and recurrence-free survival in non-small cell lung adenocarcinoma
 
 lung adenocarcinoma (LUAD)
