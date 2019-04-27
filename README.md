@@ -11,3 +11,9 @@ abbrlink: '0'
 ### 2018.11.21
 
 我要重新做人，不能那么颓废了！
+
+ 查看可更新包：
+ pip list  --outdated --format=columns
+ 批量下载并更新：
+ pip install pip-review
+ pip-review --local --interactive
