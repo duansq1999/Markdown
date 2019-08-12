@@ -10,6 +10,8 @@
 
 我要重新做人，不能那么颓废了！
 
+都一年了hahha
+
  查看可更新包：
  pip list  --outdated --format=columns
  批量下载并更新：
